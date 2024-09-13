@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Page not found - Ministry of Social Development</title>
+<!-- Output file [/iwmnt/default/main/internet-uat/msd/WORKAREA/content/webadmin/error-pages/404.html] not readable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/webadmin/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/webadmin/css/main.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="/webadmin/css/404.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="/webadmin/css/content-1024.css" type="text/css" media="screen, projection" />
+<link rel="alternate stylesheet" type="text/css" href="/webadmin/css/content-800.css" title="800" />
+<link rel="stylesheet" href="/webadmin/css/print.css" type="text/css" media="print" />
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen" href="/webadmin/css/ie7.css" />
+	<![endif]-->
+<!--[if IE 6]>
+	<link rel="stylesheet" type="text/css" media="screen" href="/webadmin/css/ie6.css" />
+	<![endif]-->
+<link rel="stylesheet" type="text/css" title="a" media="screen" href="/webadmin/css/a.css" />
+<link rel="alternate stylesheet" type="text/css" title="aa" media="screen" href="/webadmin/css/aa.css" />
+<link rel="alternate stylesheet" type="text/css" title="aaa" media="screen" href="/webadmin/css/aaa.css" />
+<script type="text/javascript" src="/webadmin/scripts/styleswitcher.js"></script>
+<script type="text/javascript" src="/webadmin/scripts/event_listeners.js"></script>
+<script type="text/javascript" src="/webadmin/scripts/resolution.js"></script>
+<script type="text/javascript" src="/webadmin/scripts/navigation-script.js"></script>
+<script type="text/javascript" src="/webadmin/scripts/lib/com.jquery/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="/webadmin/scripts/lib/com.jquery/jquery-migrate-3.4.1.js"></script>
+
+<!-- GSA search suggest code remove. See head-searchsuggest.inc v6 in UAT
+that contains the removed code. -->
+<!-- FB auto-completion plugin implementation for home page search box, jlou 27/Sep/2018 -->
+<script src="/webadmin/scripts/lib/com.getbootstrap/bootstrap-4.6.2.min.js"></script>
+<script src="/webadmin/scripts/lib/org.js.typeahead/typeahead-1.3.3.bundle.min.js"></script>
+<script src="/webadmin/scripts/lib/com.handlebarsjs/handlebars-4.7.8.min.js"></script>
+<link rel="stylesheet" href="/webadmin/css/fn-auto-completion-2.6.0.css" type="text/css" />
+<script type="text/javascript"  src="/webadmin/scripts/lib/net.squiz.funnelback/funnelback.autocompletion-2.6.0.js"></script>
+<script type="text/javascript"  src="/webadmin/scripts/fn-auto-completion.js"></script>
+<!-- End of FB auto-completion plugin include. -->
+<!-- start GA -->
+<meta name="google-site-verification" content="KCAV7TmQJJxvNbyrENg1AsNIE-JXC0J7B-Vvk3Crk6A" />
+<!-- Start GA4 Code 21Mar2023--> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWJLV0KFRV"></script> 
+<script> 
+	window.dataLayer = window.dataLayer || []; 
+	function gtag(){dataLayer.push(arguments);} 
+	gtag('js', new Date()); 
+	gtag('config', 'G-ZWJLV0KFRV'); 
+</script>  
+<!-- End GA4 Code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2196406-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+$(function() {
+    // GA code to capture document links and outbound clicks.
+    $('a').on('mouseup',function(){
+	href = $(this).attr('href');
+  	href_lower = href.toLowerCase(); 
+
+	var docPattern = /\.(csv|doc|dot|pdf|xls|xlt|vsd|vss|ppt|pps|pot|mpp|zip|obr|txt|rtf|xml|pptx|ppsx|pptm|xltx|xlsx|xlsm|docx|docm|dotm|dotx|epub|flv|mp3|mp4|m4v|ogv|ogg|webm)(\?.+)?$/;
+
+	// Domain and URL pattern rules for GA events can be modified here.
+  	if(href_lower.substr(0, 4) == "http") {
+	    var docDomain = document.domain.toLowerCase();
+	    var hrefDomain = href_lower;
+	    hrefDomain = hrefDomain.replace('http://','').replace('https://','').split(/[/?#]/)[0];
+	    if (docDomain !== hrefDomain) {
+    	        ga('send', 'event', 'External', href, 'Outbound');
+	    } else if(href_lower.match(docPattern)) {
+    	        ga('send', 'event', 'Document', href, 'Downloads');
+	    }
+  	    // if(href_lower.indexOf(domain) == -1){
+	    // 	href = href.replace("http://",'');
+	    // 	href = href.replace("https://",'');
+    	    //  ga('send', 'event', 'External', href, 'Outbound');
+   	    // }
+        } else if(href_lower.match(docPattern)) {
+    	   ga('send', 'event', 'Document', href, 'Downloads');
+  	} 
+    });
+});
+
+</script>
+<!-- end GA -->
+
+</head>
+<body>
+<div><a name="top"></a></div>
+<div id="container">
+  <!--noindex-->
+<div id="header">
+  
+<div class="helplinks">
+	<a href="#navigation" title="Go to the site navigation."></a>
+	<a href="#content" accesskey="[" title="Go to the beginning of the content. "></a>
+	<a href="/about-msd-and-our-work/tools/navigating-by-keyboard.html#AccessKeys2" title="View the access keys for this site." accesskey="0"></a>
+	<a href="/search?q=&output=xml_no_dtd&proxystylesheet=msd&client=msd&site=msd&Submit=SEARCH" title="Go to the site search." accesskey="3"></a>
+	<a href="/about-msd-and-our-work/tools/index.html" title="Go to about this site." accesskey="4"></a>
+</div>
+    
+    <div id="logo">
+        <a href="/" accesskey="1" title="Go to the homepage.">
+            <img src="/webadmin/images/msd-logo-blue.svg" alt="Ministry of Social Development." />
+        </a>
+    </div>
+
+
+    <div id="tools">
+      
+        <div class="functions">
+          <p>Search msd.govt.nz</p>      
+            <div class="search">
+                <form action="/s/search.html?" enctype="application/x-www-form-urlencoded" id="searchForm" method="get" name="searchForm">
+    				<input class="input" type="hidden" id="collection" name="collection" value="msd-msd-federated-meta" />
+					<input class="input" type="hidden" id="form" name="form" value="wrapper" />
+                	<input class="input" type="hidden" id="profile" name="profile" value="_default" />  
+                	<label for="query" hidden="">search text</label>
+                	<label for="query-hint" hidden="">search hint</label>                
+                    <input class="input query" id="query" aria-label="Search" maxlength="200" name="query" size="18" type="text" />
+                    <label for="search-button" hidden="">search button</label>
+                    <input class="search-button" id="search-button" type="submit" name="Submit" value="SEARCH" />
+                </form>
+            </div>
+                    
+        </div>
+  
+    </div>
+
+                    
+
+  <!-- BEGIN Breadcrumps -->
+  <div id="breadcrumbs"> <a href="/index.html" class="home">Home</a> </div>
+  <!-- END Breadcrumps -->
+</div>
+<!-- END header div -->
+<div id="main">
+  <div id="innercontainer">
+    
+	
+<div id="nav">
+<a name="navigation"></a>
+<ul>
+<li class="section1"><a href="/what-we-can-do/index.html"  title="What we can do for" >What we can do for:</a>
+  <ul>
+  <li><a href="/what-we-can-do/seniorcitizens/index.html"  >Seniors</a></li> 
+  <li><a href="/what-we-can-do/individuals/index.html"  >Individuals</a></li> 
+  <li><a href="/what-we-can-do/families/index.html"  >Families</a></li> 
+  <li><a href="/what-we-can-do/young-adults/index.html"  >Young adults</a></li> 
+  <li><a href="/what-we-can-do/students/index.html"  >Students</a></li> 
+  <li><a href="/what-we-can-do/disability-services/index.html"  >Disabled people</a></li> 
+  <li><a href="/what-we-can-do/community/index.html"  >Community</a></li> 
+  <li><a href="/what-we-can-do/business/index.html"  >Business</a></li> 
+  <li><a href="/what-we-can-do/providers/index.html"  >Providers</a></li> 
+  </ul>
+</li> 
+<li class="section2"><a href="/about-msd-and-our-work/index.html"  title="About us and our work" >About us and our work:</a>
+  <ul>
+  <li><a href="/about-msd-and-our-work/about-msd/index.html"  >About MSD</a></li> 
+  <li><a href="/about-msd-and-our-work/covid-19/index.html"  >COVID-19</a></li> 
+  <li><a href="/about-msd-and-our-work/work-programmes/index.html"  >Work programmes</a></li> 
+  <li><a href="/about-msd-and-our-work/child-youth-wellbeing/index.html"  >Child and Youth Wellbeing</a></li> 
+  <li><a href="/about-msd-and-our-work/newsroom/index.html"  title="News and stories"  >News and media</a></li> 
+  <li><a href="/research-insights/index.html"  >Research and insights</a></li> 
+  <li><a href="/about-msd-and-our-work/publications-resources/index.html"  >Publications and resources</a></li> 
+  <li><a href="/about-msd-and-our-work/about-msd/careers/index.html"  title="Careers at MSD - working here"  >Careers at MSD</a></li> 
+  <li><a href="/about-msd-and-our-work/contact-us/index.html"  >Contact us</a></li> 
+  </ul>
+</li> 
+</ul> 
+<script type="text/javascript">setPage()</script>
+</div>
+
+
+    <!-- id="nav" -->
+    <div id="content-col">
+        <div id="content"> <a name="content"></a>
+            <h1>Sorry we couldn't find that page</h1>
+            <p class="lead-paragraph">It might be that the page has been moved, or it doesn't exist anymore.</p>
+            <p class="lead-paragraph">Here's some ways to find what you're looking for:</p>
+
+            <h3>Try our site search</h3>
+            <p>Try something like "housing" or "food grant"</p>
+            <form class="site-search-form" action="/s/search.html?" enctype="application/x-www-form-urlencoded" method="get" name="searchForm">
+                <input class="input" type="hidden" id="collection" name="collection" value="msd-msd-web">
+                <input class="input" type="hidden" id="profile" name="profile" value="_default">
+                <label for="search-query" hidden="">search text</label>
+                <label for="query-hint" hidden="">search hint</label>
+                <input class="search-input query" id="search-query" aria-label="Search" maxlength="200" name="query" size="18" type="text">
+                <label for="search-button-text" hidden="">search button</label>
+                <input class="search-button" id="search-button-text" type="submit" name="Submit" value="Search">
+            </form>
+
+            <h3>Go back to our homepage</h3>
+            <p>You can try find what you're looking for from the <a href="msd.govt.nz">MSD homepage</a>.</p>
+            <p>Or try these popular links from our homepage:
+            <br /><a href="http://msd.govt.nz/what-we-can-do/individuals/index.html">What we can do for Individuals</a>
+            <br /><a href="http://msd.govt.nz/what-we-can-do/seniorcitizens/index.html">What we can do for Seniors / Ko ngā Kaumātua</a>
+            <br /><a href="http://msd.govt.nz/about-msd-and-our-work/index.html">About Us and Our Work</a></p>
+
+            <h3>Help us out</h3>
+            <p>If you reached this page by following a link on this site, rather than by using a bookmark, email our webmaster with the address of the page that contained the link so we can fix it.</p>
+            <p>If you came from another website, you’ll need to contact their webmaster and let them know they have a broken link on their site.</p>
+            <p>Email the webmaster at <a href="mailto:webmaster@msd.govt.nz">webmaster@msd.govt.nz</a>.</p>
+
+            <h3>Get in touch with us</h3>
+            <p>If you're stuck head to our <a href="http://msd.govt.nz/about-msd-and-our-work/contact-us/index.html">Contact Us</a> page to find out who to talk to.</p>
+
+        </div>
+        <!-- id="content" -->
+        </div>
+  <!-- id="innercontainer" -->
+</div>
+<!-- id="main" -->
+<!-- Footer -->
+<div id="footer">
+  <div class="container" >
+
+    <!-- MSD links -->
+    <div class="row">
+
+      <div class="menu">
+        <h2>What we can do for</h2>
+        <hr>
+          <div class="row nested">
+              <div class="col col-span-6">
+                <ul>
+                      <li><a href="/what-we-can-do/seniorcitizens/index.html">Seniors</a></li>
+                      <li><a href="/what-we-can-do/individuals/index.html">Individuals</a></li>
+                      <li><a href="/what-we-can-do/families/index.html">Families</a></li>
+                      <li><a href="/what-we-can-do/young-adults/index.html">Young adults</a></li>
+                      <li><a href="/what-we-can-do/students/index.html">Students</a></li>
+                </ul>
+              </div>
+              <div class="col col-span-6">
+                  <ul>
+                      <li><a href="/what-we-can-do/disability-services/index.html">Disabled people</a></li>
+                      <li><a href="/what-we-can-do/community/index.html">Community</a></li>
+                      <li><a href="/what-we-can-do/business/index.html">Business</a></li>
+                      <li><a href="/what-we-can-do/providers/index.html">Providers</a></li>
+                  </ul>
+              </div>
+          </div>
+
+      </div>
+      
+      <div class="col col-span-4 menu">
+            <h2>About us and our work</h2>
+
+            <hr>
+
+            <div class="row nested">
+                <div class="col col-span-6">
+                  <ul>
+                    <li><a href="/about-msd-and-our-work/about-msd/index.html">About MSD</a></li>
+                    <li><a href="/about-msd-and-our-work/work-programmes/index.html">Work programmes</a></li>
+                    <li><a href="/about-msd-and-our-work/newsroom/index.html">News and media</a></li>
+                    <li><a href="/about-msd-and-our-work/publications-resources/index.html">Publications and resources</a></li>
+                  </ul>
+                  </div>
+                <div class="col col-span-6">
+                    <ul>
+                        <li><a href="/research-insights/index.html">Research and insights</a></li>
+                        <li><a href="https://jobs.msd.govt.nz/">Careers at MSD</a></li>
+                        <li><a href="/about-msd-and-our-work/tools/other-msd-websites.html">Other MSD websites</a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-span-2 menu">
+          <h2>Contact</h2>
+
+          <hr>
+              
+          <ul class="contact">
+            <li>
+              <a class="phone" href="/about-msd-and-our-work/contact-us/index.html">Contact us</a>
+            </li>
+            <li>
+              <a class="facebook" href="https://www.facebook.com/MSDNewZealand/">Facebook</a>
+            </li>
+            <li>
+              <a class="twitter" href="https://twitter.com/msdgovtnz">Twitter</a>
+            </li>
+          </ul>
+
+        </div>
+
+    </div>
+
+    <!-- logos -->
+    <div class="row sub-footer-links">
+
+      <div class="col col-span-6 msd_logo">
+        <a href="https://www.msd.govt.nz">
+          <img src="/webadmin/images/msd/msd-logo-white.svg" role="img" alt="Ministry of Social Development">
+          <span class="sr-only"> / <span lang="mi">Te Manat&umacr; Whakahiato Ora</span></span>
+        </a>
+      </div>
+        
+      <div class="col col-span-6 nzgov_logo">
+        <a href="https://www.govt.nz">
+          <span class="sr-only"><span lang="mi">Te K&amacr;wanatanga o Aotearoa</span> / </span> 
+          <img class="footer-logo-nzg" src="/webadmin/images/msd/nz-govt-logo-no-crest.svg" role="img" alt="New Zealand Government">
+        </a>
+      </div>
+
+    </div>
+      
+    <!-- MSD baseline -->
+    <div class="row footer-links">
+      <div class="col col-span-10">
+        <ul>
+          <li><a href="/about-msd-and-our-work/tools/copyright-statement.html">Privacy, copyright and disclaimer</a></li>
+          <li><a href="/about-msd-and-our-work/tools/accessibility-tools.html">Accessibility</a></li>
+          <li><a href="/sitemap.html">Sitemap</a></li>
+          <li><a href="/about-msd-and-our-work/tools/index.html">About this site</a></li>
+        </ul>
+      </div>
+
+      <!-- Womans refuge -->    
+      <div class="col col-span-2">
+        <div class="footer-link-shield">
+          <a href="javascript:void(0);" id="shield-icon" class="button" title="Shielded Site"><img src="/webadmin/images/msd/womens-refuge-shield.png" alt="Shielded Site"></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<script>
+  	// Function to close the banner
+    function closeBanner() {
+        var banner = document.getElementById("androidBanner");
+        banner.style.display = "none";
+    }
+    // Check if the user is using an Android device with OS version 7 or less
+    function isAndroidVersion7OrLess() {
+        var userAgent = navigator.userAgent.toLowerCase();
+  		//console.log(userAgent);
+  		//alert(userAgent);
+        if (/android/.test(userAgent)) {
+            var androidVersion = parseFloat(userAgent.match(/android\s(\d+(\.\d+)?)/)[1]);
+            if (androidVersion <= 7) {
+                return true;
+            }
+        }
+        return false;
+    }
+</script>
+
+<script type="text/javascript" src="https://staticcdn.co.nz/embed/embed.js"></script>          
+<script type="text/javascript">
+    window.onload = function(){
+  		// Show the banner if conditions are met
+  		if (isAndroidVersion7OrLess()) {
+        	var banner = document.getElementById("androidBanner");
+            banner.style.display = "block";
+        }
+        var frameName = new ds07o6pcmkorn({
+            openElementId: "#shield-icon"
+        });
+        frameName.init();
+    }
+</script>
+          
+
+   
+    
+</div>
+<!-- id="container" -->
+
+</body>
+</html>
